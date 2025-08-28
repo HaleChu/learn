@@ -1,0 +1,39 @@
+# Maven 构建输出
+target/
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing*
+
+# 日志文件
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE 特定文件
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+.vscode/
+*.launch
+.factorypath
+.springBeans
+
+# 本地配置文件
+*.properties
+*.yml
+!src/main/resources/application*.yml
+!src/main/resources/application*.properties
+
+# 测试报告
+surefire-reports/
+failsafe-reports/
+test-output/
